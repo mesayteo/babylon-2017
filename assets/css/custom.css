@@ -1,0 +1,54 @@
+.bigger-text{
+	font-size: 20px;
+}
+
+/* Hero Section */
+#hero{
+	min-height: 700px;
+}
+
+@media (min-width:401px ) {
+	#hero {
+		min-height: 850px;
+	}
+}
+
+.bg-slider-wrapper {
+		height: 100%;
+	}
+
+
+@media(max-width: 768px) {
+	.cta-container{
+		margin-top: 20px;
+	}
+}
+
+
+/* ======= Entertainment Section ======= */
+.entertain-section {
+
+  background: inherit url('../images/entertain-bg.jpg') no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+/* ======= Venue Section ======= */
+.venue-section {
+
+  background: #f5f5f5 url('../images/venue-bg.jpg') no-repeat center top;
+
+}
+
+.video {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+
